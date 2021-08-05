@@ -1,0 +1,319 @@
+body,h1,h2,h3,h4,h5,h6,span,p,form{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+ max-width: 100%;
+}
+.left{
+    float: left;
+}
+/* header section */
+
+.symon-header .navbar-brand {
+    font-size: 31px;
+    font-weight: 450;
+    
+}
+.symon-header span {
+    display: inline-block;
+    color: #fff;
+    background: #6278df;
+    height: 54px;
+    width: 47px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 36px;
+    position: relative;
+    margin-top: -11px;
+    
+}
+
+/* slider-section */
+.section-slider{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.section-slider::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.section-title h4 {
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 34px;
+}
+.section-title h2 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+.section-title .form-control {
+    padding: 11px 26px;
+}
+.section-title .btn {
+        padding: 10px 55px;
+        margin-right: 25px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    /* numbar-counter */
+
+.numbar-counter-item .h2 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    /* about-section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-section img {
+    padding: 1px 68px;
+}
+.about-section h1 {
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 22px;
+    line-height: 1.9em;
+    font-weight: 400;
+}
+
+/* futer section */
+.futer-section-item{
+    height: 400px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.futer-right {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.futer-left {
+    width: 60%;
+    padding: 15px 30px;
+}
+.futer-left h2 {
+    font-weight: 500;
+    font-size: 25px;
+}
+.futer-left p {
+    font-size: 18px;
+    color: #767676;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-top: 17px;
+}
+.futer-right img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -188px;
+}
+
+/* flutfuli item */
+
+.flutfolio-item{}
+.flutfolio-item a{
+    position: relative;
+    display: block;
+}
+.flutfolio-item a::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(98,120,223,.6);
+    visibility: hidden;
+    transition: .5s;
+    opacity: 0
+    ;
+}
+.flutfolio-item:hover a::after{
+visibility: visible;
+opacity: 1;
+
+}
+/* priging table */
+.priging-table{
+ background-color: #f7f9ff;
+}
+.priging-table-item{
+    background-color: #fff;
+    padding: 40px 20px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    margin-top: 40px;
+}
+.priging-table-item h2 {
+    padding: 41px;
+    margin-bottom: -35px;
+}
+.priging-table-item h4 {
+    padding: 8px 42px;
+}
+
+.priging-table-item ul {
+    list-style: none;
+}
+.priging-table-item ul li {
+    margin-top: 11px;
+    margin-bottom: 20px;
+    color: #7d7d7d;
+    font-size: 19px;
+}
+.priging-table-item ul li span{
+
+  color: #6278df;
+  margin-left: 16px;
+   margin-right: 15px;
+}
+
+.priging-button{
+}
+.priging-button a {
+    margin-top: 22px;
+    font-weight: 600;
+    width: 300px;
+}
+/* testomonial section */
+.col-lg h5 {
+    font-weight: 300;
+    margin-top: 28px;
+}
+.col-lg h1 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.col-lg span {
+    font-size: 75px;
+    opacity: .1;
+}
+.col-lg p{}
+.other-info {
+    width: 200px;
+    margin: auto;
+}
+.other-info img {
+    width: 71px;
+    float: left;
+}
+.user-detals {
+    margin-right: 328px;
+    position: relative;
+    margin-top: 29px;
+}
+h4 {
+    font-size: 19px;
+}
+h6.text-muted {
+    font-size: 16px;
+    margin-top: -7px;
+    margin-right: 61px;
+    font-weight: 400;
+}
+
+/* team history */
+.team-history-section{
+    background: #f7f9ff;
+}
+h2 {
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+p.lead {
+    font-size: 19px;
+}
+p.h6.lead {
+    margin-top: 92px;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+.about-item {
+    padding: 52px 0px;
+}
+.about-item .card {
+    margin-top: 50px;
+    background: #ffffff;
+}
+.about-item .card img {
+    width: 109px;
+    margin-left: 11px;
+    margin-top: -60px;
+}
+h3.card-subtitle {
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+p.card-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #7d7d7d;
+}
+a.btn.btn-outline-secondary.shadow {
+    font-weight: 700;
+    margin-left: 15px;
+}
+/* contack item */
+.contack-item {
+    padding: 39px 0;
+}
+.contack-item h5 {
+    color: #767676;
+}
+.contack-item h2 {
+    font-weight: 400;
+}
+
+.abbu {
+    padding: 30px 43px;
+}
+h5 {
+    margin-bottom: 27px;
+}
+.abbu form {
+    margin-bottom: 23px;
+}
+textarea.from-control {
+    margin-bottom: 24px;
+    height: 107px;
+    padding: 11px 17px;
+    font-size: 18px;
+}
+button.btn.btn-outline-primary.boton-customige {
+    width: 154px;
+    margin: auto;
+}
+/* app section */
+h5.lead {
+    margin-top: 51px;
+}
+h2 {
+    font-weight: 400;
+    margin-bottom: 29px;
+}
+button.btn.btn-lg.btn-outline-success.ammu {
+    margin-left: 122px;
+}
+button.btn.btn-lg.btn-outline-success.apu {
+    margin-right: 112px;
+}
+img {
+    width: 549px;
+    border-radius: 5px;
+}
+
+       
